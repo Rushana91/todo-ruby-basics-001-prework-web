@@ -4,11 +4,10 @@ require_relative '../lib/ruby_basics.rb'
 
 describe "ruby" do
 
-  describe "#division" do
+  describe "division" do
     it 'given two numbers returns quotient of the first number divided by the second number' do
       num1 = 42
       num2 = 7
-      
       expect(division(num1,num2)).to eq(6)
     end
   end
@@ -24,9 +23,9 @@ describe "ruby" do
   describe '#argue' do
     it 'should add an argument to the method argue' do
       phrase = "I'm right and you are wrong!"
-      
+
       expect(argue(phrase)).to eq(phrase)
-    end  
+    end
   end
 
   describe '#greeting' do
